@@ -5,7 +5,7 @@ x-restart-policy: &restart_policy
 
 x-defaults: &defaults
   <<: *restart_policy
-  image: ghcr.io/tryzealot/zealot:nightly
+  image: ghcr.io/tryzealot/zealot:latest
   depends_on:
     - redis
     - postgres

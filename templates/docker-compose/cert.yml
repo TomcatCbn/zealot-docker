@@ -1,7 +1,7 @@
   web:
     image: caddy:2-alpine
     ports:
-      - "80:80"
+      - "8066:80"
       - "443:443"
     volumes:
       - ./caddy/etc/caddy/Caddyfile:/etc/caddy/Caddyfile:ro
